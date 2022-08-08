@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cox"
+    tools:context="com.example.corvidw.Corvid">
+
+
+    <Button
+        android:id="@+id/btn_exp"
+        android:background="@drawable/stylebutton"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="414dp"
+        android:text="why corvid 19 is dangerious?"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_con"
+        android:background="@drawable/stylebutton"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="488dp"
+        android:text="Prevention and control?"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_vac"
+        android:background="@drawable/stylebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="273dp"
+        android:text="Have you been vacinated?"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_record"
+        android:background="@drawable/stylebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="346dp"
+        android:text="Corvid 19 live records" />
+
+    <Button
+        android:id="@+id/btn_report"
+        android:background="@drawable/stylebutton"
+        android:layout_width="173dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="234dp"
+        android:layout_marginBottom="152dp"
+        android:text="Report infected person" />
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:background="@drawable/stylebutton"
+        android:layout_width="182dp"
+        android:layout_height="77dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="234dp"
+        android:layout_marginBottom="2dp"
+        android:text="Logout" />
+
+    <Button
+        android:id="@+id/btn_feedback"
+        android:background="@drawable/stylebutton"
+        android:layout_width="179dp"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="237dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="6dp"
+        android:text="give us feedback" />
+
+    <Button
+        android:id="@+id/btn_def"
+        android:background="@drawable/stylebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="89dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="152dp"
+        android:text="how it started."
+        android:textAlignment="center" />
+
+
+</RelativeLayout>

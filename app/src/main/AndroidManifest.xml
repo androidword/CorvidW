@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.corvidw" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CorvidW" >
+        <activity
+            android:name=".Login"
+            android:exported="true" >
+                    </activity>
+        <activity
+            android:name=".Contacts"
+            android:exported="true" />
+        <activity
+            android:name=".Check"
+            android:exported="true" />
+        <activity
+            android:name=".Record"
+            android:exported="true" />
+        <activity
+            android:name=".Prevention"
+            android:exported="true" />
+        <activity
+            android:name=".Dangerious"
+            android:exported="true" />
+        <activity
+            android:name=".Definition"
+            android:exported="true" />
+        <activity
+            android:name=".Corvid"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

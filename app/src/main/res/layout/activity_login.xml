@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.corvidw.Login">
+
+    <EditText
+        android:id="@+id/et_lusername"
+        android:layout_width="361dp"
+        android:layout_height="84dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="145dp"
+        android:drawableStart="@drawable/ic_baseline_email_24"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:hint="Username"
+        android:background="@drawable/input"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"/>
+
+    <EditText
+        android:id="@+id/et_lpassword"
+        android:layout_width="384dp"
+        android:layout_height="83dp"
+        android:layout_below="@id/et_lusername"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="0dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:hint="Password"
+        android:background="@drawable/input"
+        android:inputType="textPassword"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        />
+
+    <Button
+        android:id="@+id/btn_llogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="655dp"
+        android:layout_marginEnd="231dp"
+        android:background="@drawable/mainbutton"
+        android:ems="10"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btn_lregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="221dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/mainbutton"
+        android:ems="10"
+        android:text="Register" />
+
+
+</RelativeLayout>

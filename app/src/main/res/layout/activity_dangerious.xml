@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cox"
+    android:textAlignment="center"
+    tools:context="com.example.corvidw.Corvid">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="385dp"
+        android:layout_height="305dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="426dp"
+        app:srcCompat="@drawable/effect" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="366dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="53dp"
+        android:text="The novel coronavirus enters the body through the eyes, nose, or mouth. The virus then travels down toward the lungs and inflames the lining of the airways. This inflammation irritates the surrounding nerves, causing a cough.If oxygen levels in the bloodstream decrease, the heart has to work harder to supply organs and the rest of the body with enough oxygen to function.Meanwhile, the immune system is working to fight off the infection, and in doing so it can cause inflammation throughout the body. This inflammation can cause blood pressure to drop, which also causes the heart to work harder to supply oxygen to the organs. An infection in the lungs, or pneumonia, causes the lungs to become inflamed and fill with fluid. This makes it more difficult to breathe.Older adults may also have a higher risk of severe complications, due to less elasticity in lung tissue and less robust immune function. "
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/homebtn"
+        android:background="@drawable/stylebutton"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="8dp"
+        android:text="Home" />
+</RelativeLayout>
